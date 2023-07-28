@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(165, 57, 57);
+    color: wheat;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul{
+    list-style-type:  none;
+
+}
+.gamecontainar{
+    
+    display: flex;
+    justify-content: center;
+  margin-top: 50px;
+}
+.containar{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center0;
+
+}
+.box:hover{
+    background-color: rgb(132, 165, 42);
+}
+.gameinfo{
+    padding: 34px;
+
+}
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out ;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.br0{
+    border-right: 0;
+}
+.bl0{
+    border-left: 0;
+}
+.bt0{
+    border-top: 0;
+}
+.bb0{
+    border-bottom: 0;
+}
+#reset{
+    margin: 0 23px;
+    padding: 6px 6px;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: yellowgreen;
+    border-radius: 2px;
+}
